@@ -1,0 +1,34 @@
+header {
+    border-style: solid;
+    border-color: red;
+    text-align: right;
+    
+}
+
+.container {
+    border-style: solid;
+}
+
+section {
+    border-color: green;
+}
+
+card {
+    border-color: blueviolet;
+}
+
+.col {
+    border-style: solid;
+    border-color: fuchsia;
+    width: auto;
+}
+
+.col-2 {
+    border-style: solid;
+    border-color: orange;
+}
+
+.col-10 {
+    border-style: solid;
+    border-color: midnightblue
+}
