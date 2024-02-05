@@ -14,7 +14,10 @@
     <main>
         <section class="container text-center" name="search-column">
             <div class="row">
-                <div class="col-2" name="search-bar">Search</div>
+                <div class="col-2" name="search-bar">
+                    <input id="input" type="text" class="input"/>
+                    <button class="search-button">search</button>
+                </div>
                 <div class="col-10" name="today">Today's Forecast</div>
             </div>
         </section>
@@ -28,7 +31,10 @@
             </div>
         </card>
     </main>
-    <script href="api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid=88e51004f811b7cf54605321481a9a75"></script>
+    <script class="forecast" href="api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={88e51004f811b7cf54605321481a9a75}"></script>
+    <script class="geocoder" href="http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={88e51004f811b7cf54605321481a9a75}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
